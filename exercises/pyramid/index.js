@@ -20,12 +20,12 @@ function pyramid(n) {
     var lower = mid -1;
     var upper = mid+1;
     for (var i = 0; i < (n*2-1); i++) {
-        pyr.push("_");
+        pyr.push(" ");
     }
     pyr[mid] = "#";
 
     for (var j = 0; j <= mid; j++) {
-        console.log(pyr);
+        console.log(pyr.join(""));
         pyr[lower] = "#";
         pyr[upper] = "#";
         lower--;
