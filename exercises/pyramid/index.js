@@ -13,7 +13,23 @@
 //       '  #  '
 //       ' ### '
 //       '#####'
+console.log('******************')
 
-function pyramid(n) {}
+
+function pyramid(n) {
+    var pyr = [];
+    var mid = Math.ceil(n/2);
+    for (var i = 0; i < (n*2-1); i++) {
+        pyr.push("_");
+    }
+    pyr[mid] = "#"
+console.log(pyr)
+}
+
+
+pyramid(4)
+console.log('******************')
+
+
 
 module.exports = pyramid;

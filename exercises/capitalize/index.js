@@ -15,5 +15,7 @@ function capitalize(str) {
    return string.join(" ");
   };
 
+  console.log("hi Merary")
+
 
 module.exports = capitalize;
